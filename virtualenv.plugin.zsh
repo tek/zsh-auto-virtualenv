@@ -19,7 +19,7 @@ _env_is_sane()
 
 _is_better_match()
 {
-  [[ $PWD =~ $project_path ]] && \
+  [[ $PWD/ =~ $project_path/ ]] && \
     [[ $#project_path > $longest_path ]]
 }
 
