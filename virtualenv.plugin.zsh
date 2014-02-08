@@ -1,6 +1,6 @@
 _read_venvs()
 {
-  local workon_home project_fname
+  local workon_home project_fname file
   workon_home=${WORKON_HOME-~/.virtualenvs}
   project_fname=${VIRTUALENVWRAPPER_PROJECT_FILENAME-.project}
   virtualenv_map=()
